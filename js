@@ -1,19 +1,21 @@
-//String Object Methods
+//function idGenerator(){
+//var id = 1;
+//return function(){
+//return id++;
+//}
+//}
+//var nextId = iGeneration();
+//console.log(nextId);
+//console.log(nextId);
+//console.log(nextId);
 
-var a ="Hello Word.";
-var b ="I am a student.";
-var temp = new Array();
-temp = b.split(" ");
-
-console.log(a+" "+b);   //"Hello Word. I am a student."
-console.log(b.indexOf("t"));    //8
-console.log(b.lastIndexOf("t"));    //13
-console.log(a.charAt(7));   //"0"
-console.log(a.charCodeAt(7));   //111
-console.log(b.length);  //15
-console.log(temp);  //["I", "am", "a", "student."]
-console.log(a.slice(2,7));  //"llo W"
-console.log(a.substring(2,7));  //"llo W"
-console.log(a.substr(2,7)); //"llo Wor"
-console.log(a.toLowerCase());   //"hello word."
-console.log(b.toUpperCase());   //"I AM A STUDENT."
+//Вывести greeting + name
+function createGreeting(greeting){
+  return fuction(name){
+  console.log("${greeting}, ${name}");
+  }
+}
+var sayHi = createGreeting("Hi");
+sayHi("Bob");
+var sayHello = createGreeting("Hello");
+sayHello("Anna");
