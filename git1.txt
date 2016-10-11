@@ -1,0 +1,380 @@
+student@D27 MINGW64 ~/Documents/D-SAVCHENKO/git exemple/www/JS (local)
+$ git status
+On branch local
+Your branch is up-to-date with 'origin/local'.
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        deleted:    Untitled-1
+        deleted:    index.html
+        deleted:    lib.js
+        deleted:    licence.txt
+        deleted:    license.txt
+        deleted:    main.js
+        deleted:    readme.txt
+        deleted:    well.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        js
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+student@D27 MINGW64 ~/Documents/D-SAVCHENKO/git exemple/www/JS (local)
+$ git add
+Nothing specified, nothing added.
+Maybe you wanted to say 'git add .'?
+
+student@D27 MINGW64 ~/Documents/D-SAVCHENKO/git exemple/www/JS (local)
+$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+Did you mean this?
+        add
+
+student@D27 MINGW64 ~/Documents/D-SAVCHENKO/git exemple/www/JS (local)
+$ git commit -m "initial commit"
+On branch local
+Your branch is up-to-date with 'origin/local'.
+Changes not staged for commit:
+        deleted:    Untitled-1
+        deleted:    index.html
+        deleted:    lib.js
+        deleted:    licence.txt
+        deleted:    license.txt
+        deleted:    main.js
+        deleted:    readme.txt
+        deleted:    well.txt
+
+Untracked files:
+        js
+
+no changes added to commit
+
+student@D27 MINGW64 ~/Documents/D-SAVCHENKO/git exemple/www/JS (local)
+$ git status
+On branch local
+Your branch is up-to-date with 'origin/local'.
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        deleted:    Untitled-1
+        deleted:    index.html
+        deleted:    lib.js
+        deleted:    licence.txt
+        deleted:    license.txt
+        deleted:    main.js
+        deleted:    readme.txt
+        deleted:    well.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        js
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+student@D27 MINGW64 ~/Documents/D-SAVCHENKO/git exemple/www/JS (local)
+$ git add .
+
+student@D27 MINGW64 ~/Documents/D-SAVCHENKO/git exemple/www/JS (local)
+$ git status
+On branch local
+Your branch is up-to-date with 'origin/local'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        deleted:    Untitled-1
+        deleted:    index.html
+        new file:   js
+        deleted:    lib.js
+        deleted:    licence.txt
+        deleted:    license.txt
+        deleted:    main.js
+        deleted:    readme.txt
+        deleted:    well.txt
+
+
+student@D27 MINGW64 ~/Documents/D-SAVCHENKO/git exemple/www/JS (local)
+$ git commit -m "initial commit"
+[local 4359b76] initial commit
+ 9 files changed, 19 insertions(+), 9 deletions(-)
+ delete mode 100644 Untitled-1
+ delete mode 100644 index.html
+ create mode 100644 js
+ delete mode 100644 lib.js
+ delete mode 100644 licence.txt
+ delete mode 100644 license.txt
+ delete mode 100644 main.js
+ delete mode 100644 readme.txt
+ delete mode 100644 well.txt
+
+student@D27 MINGW64 ~/Documents/D-SAVCHENKO/git exemple/www/JS (local)
+$ git log
+commit 4359b76d98cb1dc6b1b11b1c9219770d5ac2ee83
+commit 4359b76d98cb1dc6b1b11b1c9219770d5ac2ee83
+Author: dmitry <dmitry.savchenko09@gmail.com>
+Date:   Tue Oct 11 18:42:06 2016 +0300
+
+    initial commit
+
+commit 02dc9400dc483e28d9e9338fccd9d795917b8963
+Author: dmitry <dmitry.savchenko09@gmail.com>
+Date:   Sat Sep 3 11:08:32 2016 +0300
+
+    index
+
+commit f2408f338e5825c97309ad6b88253431c1dfbe15
+Author: dmitry <dmitry.savchenko09@gmail.com>
+Date:   Sat Sep 3 11:04:59 2016 +0300
+
+    index
+
+commit 901256b036ecf6fceb2712c6798ab5c95ef31dbc
+Author: dmitry <dmitry.savchenko09@gmail.com>
+Date:   Sat Sep 3 10:44:01 2016 +0300
+
+    well
+
+commit 134c0ff2cf102bdb47bc6e2b5b57906a47b1029d
+Author: dmitry <dmitry.savchenko09@gmail.com>
+Date:   Sat Sep 3 09:57:37 2016 +0300
+
+    lib
+
+commit 6fefbc70c52e7f0a780e3af4087c6b5f902937fb
+Merge: dfe37c4 f6a3d18
+Author: dmitry <dmitry.savchenko09@gmail.com>
+Date:   Thu Sep 1 19:49:02 2016 +0300
+
+    master
+
+commit dfe37c47dffcc0135425fb3f01232cd6b070c5eb
+Author: dmitry <dmitry.savchenko09@gmail.com>
+Date:   Thu Sep 1 19:41:39 2016 +0300
+
+    master
+
+commit f6a3d180d41e5ffc8ff642d9fe02055f179ada00
+Author: dmitry <dmitry.savchenko09@gmail.com>
+Date:   Thu Sep 1 19:40:15 2016 +0300
+
+    iss45
+
+commit daed53ef42278819d3d500c447ac3812960f283a
+Author: dmitry <dmitry.savchenko09@gmail.com>
+Date:   Thu Sep 1 19:30:48 2016 +0300
+
+    iss45
+
+commit 0619b2831d9570d582e51fae9db1858a7d10bb5e
+Author: dmitry <dmitry.savchenko09@gmail.com>
+Date:   Thu Sep 1 19:26:33 2016 +0300
+
+    iss44 commit message
+
+commit b322b6de2bb1dbd684fcd703ff951f6d052bff50
+Author: dmitry <dmitry.savchenko09@gmail.com>
+Date:   Thu Sep 1 19:00:39 2016 +0300
+
+    iss53 commit message
+
+commit 016feeb043ad61fa4577f6a90a01122d44c70781
+Author: dmitry <dmitry.savchenko09@gmail.com>
+Date:   Thu Sep 1 18:52:31 2016 +0300
+
+    New3 commit message
+
+commit c13479054bb2cedc35ed8df30e6237cd251e2e59
+Author: dmitry <dmitry.savchenko09@gmail.com>
+Date:   Tue Aug 30 20:54:21 2016 +0300
+
+    New1 commit message
+
+commit 6118a45737ce3e2f13c655d1e1c0ddee6703f600
+Author: dmitry <dmitry.savchenko09@gmail.com>
+Date:   Tue Aug 30 19:58:39 2016 +0300
+
+    added new feature
+
+commit 51828fd143aa0aafa218c2f22bb726828ec0e2ab
+Author: dmitry <dmitry.savchenko09@gmail.com>
+Date:   Tue Aug 30 19:50:05 2016 +0300
+
+    my Savchenko_d098Savchenko_d098first commit
+
+commit 9f75d4b97a36b848c66470eed9f62cd36f3a5c8b
+Author: dmitry <dmitry.savchenko09@gmail.com>
+Date:   Tue Aug 30 19:47:15 2016 +0300
+
+    my Savchenko_d098Savchenko_d098first commit
+
+commit 162799ed96190eff37da03886b0341bff5d882fa
+Author: dmitry <dmitry.savchenko09@gmail.com>
+Date:   Tue Aug 30 19:30:56 2016 +0300
+
+    my first commit
+
+commit 306e04bdbb0a8cc8df5a7d1fd2e4321caf309e73
+Author: dmitry <dmitry.savchenko09@gmail.com>
+Date:   Tue Aug 30 19:26:53 2016 +0300
+
+    my first commit
+commit 4359b76d98cb1dc6b1b11b1c9219770d5ac2ee83
+Author: dmitry <dmitry.savchenko09@gmail.com>
+Date:   Tue Oct 11 18:42:06 2016 +0300
+
+    initial commit
+
+commit 02dc9400dc483e28d9e9338fccd9d795917b8963
+Author: dmitry <dmitry.savchenko09@gmail.com>
+Date:   Sat Sep 3 11:08:32 2016 +0300
+
+    index
+
+commit f2408f338e5825c97309ad6b88253431c1dfbe15
+Author: dmitry <dmitry.savchenko09@gmail.com>
+Date:   Sat Sep 3 11:04:59 2016 +0300
+
+    index
+
+commit 901256b036ecf6fceb2712c6798ab5c95ef31dbc
+Author: dmitry <dmitry.savchenko09@gmail.com>
+Date:   Sat Sep 3 10:44:01 2016 +0300
+
+    well
+:
+
+student@D27 MINGW64 ~/Documents/D-SAVCHENKO/git exemple/www/JS (local)
+$ git remote
+origin
+
+student@D27 MINGW64 ~/Documents/D-SAVCHENKO/git exemple/www/JS (local)
+$ git push
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 554 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/DmitrySavchenko9/project01.git
+   02dc940..4359b76  local -> local
+
+student@D27 MINGW64 ~/Documents/D-SAVCHENKO/git exemple/www/JS (local)
+$ git checkout -b closures
+Switched to a new branch 'closures'
+
+student@D27 MINGW64 ~/Documents/D-SAVCHENKO/git exemple/www/JS (closures)
+$ git branch
+* closures
+  iss33
+  iss45
+  local
+  master
+  testing
+
+student@D27 MINGW64 ~/Documents/D-SAVCHENKO/git exemple/www/JS (closures)
+$ git status
+On branch closures
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   js
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+student@D27 MINGW64 ~/Documents/D-SAVCHENKO/git exemple/www/JS (closures)
+$ git add .
+
+student@D27 MINGW64 ~/Documents/D-SAVCHENKO/git exemple/www/JS (closures)
+$ git -am `closures learned`
+bash: closures: command not found
+Unknown option: -am
+usage: git [--version] [--help] [-C <path>] [-c name=value]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+student@D27 MINGW64 ~/Documents/D-SAVCHENKO/git exemple/www/JS (closures)
+$ git checkout -b closures
+fatal: A branch named 'closures' already exists.
+
+student@D27 MINGW64 ~/Documents/D-SAVCHENKO/git exemple/www/JS (closures)
+$ git status
+On branch closures
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   index.html
+        modified:   js
+
+
+student@D27 MINGW64 ~/Documents/D-SAVCHENKO/git exemple/www/JS (closures)
+$ git commit -m "initial commit"
+[closures 3ddc131] initial commit
+ 2 files changed, 30 insertions(+), 19 deletions(-)
+ create mode 100644 index.html
+ rewrite js (99%)
+
+student@D27 MINGW64 ~/Documents/D-SAVCHENKO/git exemple/www/JS (closures)
+$ git push
+fatal: The current branch closures has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin closures
+
+
+student@D27 MINGW64 ~/Documents/D-SAVCHENKO/git exemple/www/JS (closures)
+$ git push -u origin closures
+error: unable to read askpass response from 'C:/Program Files/Git/mingw64/libexe                                              c/git-core/git-gui--askpass'
+Password for 'https://var sayHi = createGreeting("Hi");@github.com':
+
+student@D27 MINGW64 ~/Documents/D-SAVCHENKO/git exemple/www/JS (closures)
+$ git push -u origin closures
+Counting objects: 4, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 656 bytes | 0 bytes/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+To https://github.com/DmitrySavchenko9/project01.git
+ * [new branch]      closures -> closures
+Branch closures set up to track remote branch closures from origin.
+
+student@D27 MINGW64 ~/Documents/D-SAVCHENKO/git exemple/www/JS (closures)
+$ git clone https://github.com/DmitrySavchenko9/project01.git
+Cloning into 'project01'...
+remote: Counting objects: 69, done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 69 (delta 0), reused 0 (delta 0), pack-reused 65
+Unpacking objects: 100% (69/69), done.
+Checking connectivity... done.
+
+student@D27 MINGW64 ~/Documents/D-SAVCHENKO/git exemple/www/JS (closures)
+$ cd project01
+
+student@D27 MINGW64 ~/Documents/D-SAVCHENKO/git exemple/www/JS/project01 (master                                              )
+$ git branch -a
+* master
+  remotes/origin/HEAD -> origin/master
+  remotes/origin/closures
+  remotes/origin/iss45
+  remotes/origin/local
+  remotes/origin/master
+  remotes/origin/remote_local
+  remotes/origin/testing
+
+student@D27 MINGW64 ~/Documents/D-SAVCHENKO/git exemple/www/JS/project01 (master                                              )
+$ git checkout -b callbask
+Switched to a new branch 'callbask'
+
+student@D27 MINGW64 ~/Documents/D-SAVCHENKO/git exemple/www/JS/project01 (callba                                              sk)
+$
